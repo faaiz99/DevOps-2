@@ -6,7 +6,7 @@ dotenv.config();
 // a mongoose stuf (mongoose.connect ....) return always a promise
 const connectDB = async () => {
     try{
-        var c1 = 'mongodb+srv://east-shopping:admin@cluster0.p9wirik.mongodb.net/?retryWrites=true&w=majority'
+        var c1 = 'mongodb+srv://east-shopping:admin@cluster0.bwuiac9.mongodb.net/?retryWrites=true&w=majority'
         var c2 = 'mongodb://localhost:27017/test'
         const conn = await mongose.connect(c1,{
             useUnifiedTopology: true,
